@@ -1,5 +1,3 @@
-# Fun-script
-Just a silly little game, trying this out to see if I can get it to work here
 command = ""
 command = input('Any waves out there? (y/n)_ ')
 
@@ -15,25 +13,28 @@ dice = Dice()
 print (dice.roll())
 
 if command == ('y'):
-    input('Gnarly, say is that little wonkey? y/n:')
-    if command == ('n'):
-        print('Brah, its so good .. , time to paddle out for sure!!!')
-elif command == ('y'):
-              print('yeah, pretty micro.')
+    input('Feet, but fun! say is that trade wind heading here? y/n:')
+if command == ('n'):
+        print('feet but fun ..  paddle out for sure!!!')
+
 
 Skateboard = ""
-skateboard =input('  ...(Some time later)... Woah brah.  is it about to rain?  __(y/n)')
+skateboard =input(
+                  '...Some time later... Woah gnarly brah sick ride. After this burrito We should go skate, '
+                  'is it about to rain? (y/n)_')
 if skateboard == ('y'):
-    print('what?, skunked!!! denied the skate sesh for sure')
+    print('what?, skunked! denied! no skate sesh dang')
 elif skateboard == ('n'):
-    print ("Its on!!!  skate and destroy! fully session time!!  lets rip at prince park")
+    print("Its on!!!  skate and destroy! fully!!  lets rip at skate park")
 import random
 
 while True:
-    input("press enter to roll d20")
+    input("press enter for surf check in feet")
     d20 = random.randint(1,20)
     print(d20)
     if d20 == 1:
         print('dang brah, flat huh..  ')
     elif d20 == 20:
-        print("Livin the California Dream")
+        print("livin da california dream")
+    elif d20 == 10:
+        print ("OUT THERE!!!  ...YYyyeeewwww!!!!")
